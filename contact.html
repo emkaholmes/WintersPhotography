@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Winters Photography</title>
+        <meta charset="UTF-8/">
+        <meta name="viewport" content="width=device-width, intital-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+        <link href="styles/contact.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+        <script>
+            $(function() {
+              $('#menu').slicknav();
+            });
+          </script>
+    </head>
+    <body>
+        <div class="grid">
+            <header class="headg">
+                <div class="container3">
+                    <h1>Winters Photography</h1>
+                   <nav>
+                      <ul id="menu">
+                        <li><a class="xor" href="home.html">Home</a></li>
+                        <li><a class="xor" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="xor" href="about.html">About Me</a></li>
+                        <li><a class="xor" href="contact.html">Contact</a></li>
+                      </ul>
+                    </nav>
+                </div>
+            </header>
+
+    <main>
+
+        <form method="get" action="">
+
+          <p>Thank you for your interest in my work! Please provide your name, email, and inquiry. I look forward to working with you!</p>
+          <div>
+              <label>
+                  Name:   
+                  <input type="text" name="name" placeholder="Awesome Client" required=yes />
+              </label>
+          </div>
+
+          <div>
+              <label>
+                  Email:
+                  <input type="email" name="email" placeholder="client@gmail.com" />
+              </label>
+          </div>
+
+          <div>
+            <label for="message">Message:</label><br />
+            <textarea id="message" rows="3" cols="28" placeholder="I'd like to book a photoshoot!"></textarea>
+          </div>
+
+          <div>
+              <button type="submit">
+                  Submit
+              </button>
+          </div>
+      </form>
+
+    </main>
+
+    <footer class="footerg">
+      <br>
+      <p>&COPY; Winters Photography</p>
+
+  </footer>
+
+  </div>
+</body>
+</html>
